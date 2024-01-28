@@ -1,17 +1,14 @@
-
-.mainContainer{
+.mainContainer {
   background-color: rgb(15, 159, 237);
   text-align: center;
   display: flex;
   align-items: center;
   padding: 55px;
   height: 100vh; /* Set the height to 100% of the viewport height */
-  box-shadow:4px 2px 5px rgba(106, 147, 139, 0.99); /* Add a slight white shadow */
-
-
+  box-shadow: 4px 2px 5px rgba(106, 147, 139, 0.99); /* Add a slight white shadow */
 }
 .example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
   background-size: cover;
 }
 
@@ -23,26 +20,24 @@
   font-size: 98px;
   text-align: center;
   text-transform: uppercase;
-  text-decoration:none;
+  text-decoration: none;
   border: none;
   outline: none;
 }
 
-.transactionBtn{
+.transactionBtn {
   margin-right: 10px;
   height: 310px;
   width: 310px;
   margin-bottom: 10px;
   font-size: x-large;
-  background-color:rgba(58, 58, 248, 0.52);
+  background-color: rgba(58, 58, 248, 0.52);
   align-items: center;
 
   text-align: center;
 
-
   justify-content: center;
   border-color: rgb(63, 224, 14);
-
 }
 .mat-raised-button:last-child {
   margin-right: 0;
@@ -64,5 +59,3 @@
   text-align: center;
   color: rgb(241, 243, 252);
 }
-
-
