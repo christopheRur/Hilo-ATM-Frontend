@@ -8,13 +8,14 @@
     <img mat-card-image src="" alt="Photo of a Shiba Inu" />
     <mat-card-content>
       <div class="md-button">
-        <button mat-raised-button class="transactionBtn">DEPOSIT</button>
-        <button mat-raised-button class="transactionBtn">WITHDRAW</button>
-        <button mat-raised-button class="transactionBtn">CHECK BALANCE</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToDeposit()">DEPOSIT</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToWithdraws()">WITHDRAW</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToBalance()">CHECK BALANCE</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToSpendings()">SPENDING</button>
       </div>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>LIKE</button>
+      <button mat-button>DFDFDF</button>
       <button mat-button>SHARE</button>
     </mat-card-actions>
   </mat-card>
