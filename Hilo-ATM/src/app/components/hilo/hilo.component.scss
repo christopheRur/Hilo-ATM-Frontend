@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   padding: 55px;
-  height: 100vh; /* Set the height to 100% of the viewport height */
+  height: fit-content; /* Set the height to 100% of the viewport height */
   box-shadow: 4px 2px 5px rgba(106, 147, 139, 0.99); /* Add a slight white shadow */
 }
 .example-header-image {
