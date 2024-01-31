@@ -6,6 +6,7 @@ import { HiloComponent } from './components/hilo/hilo.component';
 import { WithdrawsComponent } from './components/withdraws/withdraws.component';
 import { SpendingsComponent } from './components/spendings/spendings.component';
 
+
 const routes: Routes = [
 {path: 'balanceCheck', component:BalanceCheckComponent},
 {path: 'deposit',component:DepositsComponent},

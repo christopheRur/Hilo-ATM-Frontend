@@ -10,6 +10,8 @@ import { DepositsComponent } from './components/deposits/deposits.component';
 import { WithdrawsComponent } from './components/withdraws/withdraws.component';
 import { BalanceCheckComponent } from './components/balance-check/balance-check.component';
 import { SpendingsComponent } from './components/spendings/spendings.component';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -18,13 +20,16 @@ import { SpendingsComponent } from './components/spendings/spendings.component';
     DepositsComponent,
     WithdrawsComponent,
     BalanceCheckComponent,
-    SpendingsComponent
+    SpendingsComponent,
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
