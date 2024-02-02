@@ -1,19 +1,24 @@
 <div class="container">
+
+
   <mat-card class="custom-card">
     <mat-card-header>
       <div mat-card-avatar class="header-image"></div>
-      <mat-card-title>HILO-ATM</mat-card-title>
-      <mat-card-subtitle>Hilo Bank</mat-card-subtitle>
+      <mat-card-title class="title">HILO-ATM</mat-card-title>
+      <mat-card-subtitle class="subtitle">DEPOSIT</mat-card-subtitle>
     </mat-card-header>
 
     <mat-card-content class="content">
+      <span matPrefix style="font-size: 170px;">$ </span>
+      <mat-form-field class="form-field">
 
+        <input matInput type="number" #deposit style="text-align: center; font-size: 24px; width: 100%; display: block; margin: 0 auto; color: green;">
+        <mat-hint>e.g: $5000</mat-hint>
+      </mat-form-field>
     </mat-card-content>
 
     <mat-card-actions>
-<button><mat-icon svgIcon="thumbs-up">
-
-</mat-icon >  </button>
+      <button mat-raised-button color="primary" class="custom-button">Deposit</button>
     </mat-card-actions>
   </mat-card>
 </div>

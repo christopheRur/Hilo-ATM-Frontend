@@ -11,6 +11,9 @@ import { WithdrawsComponent } from './components/withdraws/withdraws.component';
 import { BalanceCheckComponent } from './components/balance-check/balance-check.component';
 import { SpendingsComponent } from './components/spendings/spendings.component';
 import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 
 @NgModule({
@@ -29,7 +32,9 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     MatCardModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

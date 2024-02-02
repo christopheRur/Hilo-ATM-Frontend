@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './deposits.component.scss'
 })
 export class DepositsComponent {
+[x: string]: any;
 
 }
