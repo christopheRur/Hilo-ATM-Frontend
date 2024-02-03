@@ -10,7 +10,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   align-items: center;
-  background-color: rgb(254, 195, 144);
+  background-color: rgb(87, 150, 95);
   text-align: center;
   color: rgb(241, 243, 252);
 }
@@ -27,5 +27,30 @@
 
 .content{
   height: 500px;
+
+  display: flex;
+  align-items: center;
+  overflow: scroll;
 }
 
+.custom-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.custom-button:hover {
+  background-color: #59d05f; /* Darker green on hover */
+}
+
+.title, subtitle {
+
+}
