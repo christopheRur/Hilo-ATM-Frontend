@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-spendings',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './spendings.component.scss'
 })
 export class SpendingsComponent {
+  constructor(private router:Router){}
+
+
+  public goBackToMainPage():void{
+
+    this.router.navigate(['/hilo']);
+
+    console.log("Navigate to HILO.");
+  }
 
 }

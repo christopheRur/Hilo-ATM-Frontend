@@ -10,6 +10,17 @@ export class HiloComponent {
 
 constructor(private router:Router){}
 
+public navigateToMainPage():void{
+
+  this.router.navigate(['/hilo']);
+
+  console.log("Navigate to mainPage...");
+
+  }
+
+
+
+
 public navigateToDeposit():void{
 
 this.router.navigate(['/deposit']);

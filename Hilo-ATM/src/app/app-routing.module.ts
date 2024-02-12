@@ -10,7 +10,7 @@ import { SpendingsComponent } from './components/spendings/spendings.component';
 const routes: Routes = [
 {path: 'balanceCheck', component:BalanceCheckComponent},
 {path: 'deposit',component:DepositsComponent},
-{path: '',component:HiloComponent},
+{path: 'hilo',component:HiloComponent},
 {path: 'withdraw',component:WithdrawsComponent},
 {path: 'spendings',component:SpendingsComponent},
 {path:'',redirectTo:'hilo',pathMatch:'full'}

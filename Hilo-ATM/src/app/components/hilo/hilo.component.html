@@ -8,34 +8,10 @@
 
     <mat-card-content>
       <div class="md-button">
-        <button
-          mat-raised-button
-          class="transactionBtn"
-          (click)="navigateToDeposit()"
-        >
-          DEPOSIT
-        </button>
-        <button
-          mat-raised-button
-          class="transactionBtn"
-          (click)="navigateToWithdraws()"
-        >
-          WITHDRAW
-        </button>
-        <button
-          mat-raised-button
-          class="transactionBtn"
-          (click)="navigateToBalance()"
-        >
-          CHECK BALANCE
-        </button>
-        <button
-          mat-raised-button
-          class="transactionBtn"
-          (click)="navigateToSpendings()"
-        >
-          SPENDING
-        </button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToDeposit()">DEPOSIT</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToWithdraws()">WITHDRAW</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToBalance()">CHECK BALANCE</button>
+        <button mat-raised-button class="transactionBtn" (click)="navigateToSpendings()">SPENDING</button>
       </div>
     </mat-card-content>
   </mat-card>

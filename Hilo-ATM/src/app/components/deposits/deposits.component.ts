@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-deposits',
@@ -6,6 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './deposits.component.scss'
 })
 export class DepositsComponent {
-[x: string]: any;
+  constructor(private router:Router){}
+
+public navigateToMainPage():void{
+
+  this.router.navigate(['/hilo']);
+
+  console.log("Navigate to mainPage...");
+
+  }
+
 
 }
