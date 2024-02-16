@@ -10,7 +10,13 @@ export class HiloService {
   private apiServiceUrl = environment.apiBaseUrl;
 
   constructor(private http: HttpClient) { }
-  public retrieveCurrentBalance():void{}
+  public retrieveCurrentBalance():void{
+
+  }
+
+  public retrieveSaving():void{
+
+  }
 
 
 }
