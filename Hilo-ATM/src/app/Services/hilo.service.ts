@@ -17,6 +17,9 @@ export class HiloService {
   public retrieveSaving():void{
 
   }
+  public retrieveSpendingBalance():void{
+
+  }
 
 
 }
