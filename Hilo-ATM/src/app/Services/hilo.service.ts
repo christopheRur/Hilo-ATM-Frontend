@@ -21,9 +21,11 @@ export class HiloService {
 
   }
 
-  public retrieveSpendingHistory():void{
+  public retrieveSpendingAmountHistory():void{
 
   }
+
+
 
 
 }
