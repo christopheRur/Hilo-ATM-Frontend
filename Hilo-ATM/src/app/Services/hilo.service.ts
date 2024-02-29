@@ -26,6 +26,11 @@ export class HiloService {
   }
 
 
+  public retrieveConfirmation():void{
+
+  }
+
+
 
 
 }
