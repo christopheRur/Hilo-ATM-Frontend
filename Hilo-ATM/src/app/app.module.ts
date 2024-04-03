@@ -14,6 +14,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
+import { AuthScreenComponent } from './components/auth-screen/auth-screen.component';
+
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     WithdrawsComponent,
     BalanceCheckComponent,
     SpendingsComponent,
+    AuthScreenComponent,
 
 
   ],

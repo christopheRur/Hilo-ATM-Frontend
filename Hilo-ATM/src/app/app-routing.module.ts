@@ -5,6 +5,7 @@ import { DepositsComponent } from './components/deposits/deposits.component';
 import { HiloComponent } from './components/hilo/hilo.component';
 import { WithdrawsComponent } from './components/withdraws/withdraws.component';
 import { SpendingsComponent } from './components/spendings/spendings.component';
+import { AuthScreenComponent } from './components/auth-screen/auth-screen.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
 {path: 'hilo',component:HiloComponent},
 {path: 'withdraw',component:WithdrawsComponent},
 {path: 'spendings',component:SpendingsComponent},
-{path:'',redirectTo:'hilo',pathMatch:'full'}
+{path: 'auth',component:AuthScreenComponent},
+{path:'',redirectTo:'auth',pathMatch:'full'}
 
 ];
 
